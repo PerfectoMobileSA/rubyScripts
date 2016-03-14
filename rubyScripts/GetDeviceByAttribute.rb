@@ -2,9 +2,9 @@ require 'net/https'
 require 'rexml/document'
 
 #*************** Edit Script Variables here ********************************
-host = 'demo.perfectomobile.com'
-user = 'brianc@perfectomobile.com'
-pwd = '54Ph1R3!'
+host = 'YourCloud.perfectomobile.com'
+user = 'YourUser@perfectomobile.com'
+pwd = 'YourPerfectoPassword'
 
 # Enter any desired attributes value into the Hash at the appropriate key
 #       Leave as empty ("") string if not using
