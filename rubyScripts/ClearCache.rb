@@ -10,7 +10,6 @@ require 'selenium-webdriver'
 # creates the remote webdriver driver
 puts "Creating the driver..."
 
-
   client = Selenium::WebDriver::Remote::Http::Default.new
   client.timeout = 300 # seconds
 
@@ -42,6 +41,7 @@ ensure
     # always quit the driver...
     @driver.quit   
 end
+
 
 # load at start of script
 BEGIN{
